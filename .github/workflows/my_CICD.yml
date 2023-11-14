@@ -1,0 +1,36 @@
+name: My CI/CD 
+
+on:
+  push:
+    branches: [ "ISRPOlab5" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+          architecture: "x64"
+      - name: run tests
+        run: test.py
+  test2:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+          architecture: "x64"
+      - name: run tests
+        run: test.py
+    
+    
