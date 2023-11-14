@@ -1,4 +1,4 @@
-def area(a:int, b:int)-> int:
+def area(a, b):
     '''
     Calculates the area of rectangle
     :param a: size of the side of the rectangle (first side)
