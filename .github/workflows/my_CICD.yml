@@ -2,7 +2,7 @@ name: My CI/CD
 
 on:
   push:
-    branches: [ "ISRPOlab5" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
