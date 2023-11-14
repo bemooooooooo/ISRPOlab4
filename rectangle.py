@@ -11,7 +11,7 @@ def area(a, b):
     '''
     return a * b
 
-def perimeter(a:int, b:int):
+def perimeter(a, b):
     '''
     Calculates the perimeter of rectangle
     :param a: size of the side of the rectangle (first side)

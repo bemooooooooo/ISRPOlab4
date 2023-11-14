@@ -19,6 +19,8 @@ jobs:
         with:
           python-version: "3.10"
           architecture: "x64"
+      - name: install unittest
+        run: pip install unittest
       - name: run tests
         run: test.py
   test2:
@@ -30,7 +32,7 @@ jobs:
         with:
           python-version: "3.10"
           architecture: "x64"
+      - name: install unittest
+        run: pip install unittest
       - name: run tests
         run: test.py
-    
-    
