@@ -1,6 +1,6 @@
 # ISRPOlab4
-**ISRPOlab4** Contains tests for the file rectangle.py.
-## rectangle.py
+**ISRPOlab4** Contains tests for the library geometriclib.
+## For example: rectangle.py
 Contains functions:
 **area**
 ```Python
