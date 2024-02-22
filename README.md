@@ -17,7 +17,7 @@ def area(a, b):
     '''
     return a * b
 ```
-**perimeteк**
+**perimeter**
 ```Python
 def perimeter(a, b):
     '''
